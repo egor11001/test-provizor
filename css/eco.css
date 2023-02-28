@@ -1799,7 +1799,7 @@ input:-webkit-autofill {
 }
 
 .slide4_bottom h5 {
-  margin: 104px auto 0;
+  margin: 104px auto 64px;
   max-width: 738px;
   font-size: 20px;
   line-height: 27px;
@@ -4862,7 +4862,7 @@ a.f_li:hover {
     width: 100%;
   }
   .slide4 {
-    height: 110%;
+    height: fit-content;
   }
   .slide4_text_wrapper {
     top: 80px;
