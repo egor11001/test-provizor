@@ -1413,7 +1413,7 @@ h1 > span {
   .slide2_info h2 {
     font-size: 36px;
     line-height: 46px;
-    margin-top: 64px;
+    margin-top: 0px;
     margin-bottom: 32px;
   }
 
