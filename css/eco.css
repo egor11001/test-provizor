@@ -1575,7 +1575,7 @@ h1 > span {
   
   .slide3_info h4 {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 27px;
     color: white;
     margin-bottom: 56px;
     padding: 0;
@@ -1589,6 +1589,7 @@ h1 > span {
   .tap_block h3 {
     font-size: 18px;
     line-height: 28px;
+    letter-spacing: 0;
   }
 
   .slide3_img {
