@@ -1030,6 +1030,7 @@ h1 > span {
   line-height: 25px;
   margin-bottom: 40px;
   font-family: OpenSansBold;
+  max-width: 550px;
 }
 
 .main_btn {
@@ -3966,6 +3967,7 @@ a.f_li:hover {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 40px;
+    
   }
   .product_wrapper {
     display: none;
@@ -8337,7 +8339,7 @@ h5 {
   }
 
   .wrapper_h1 {
-    height: 60%;
+    height: 70%;
   }
   .h1_app {
     font-size: 32px;
