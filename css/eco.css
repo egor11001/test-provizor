@@ -1799,7 +1799,7 @@ input:-webkit-autofill {
 }
 
 .slide4_bottom h5 {
-  margin: 104px auto 64px;
+  margin: 104px auto 0;
   max-width: 738px;
   font-size: 20px;
   line-height: 27px;
@@ -1864,6 +1864,7 @@ input:-webkit-autofill {
 
   .slide4_bottom {
     margin-top: 240px;
+    margin-bottom: 80px;
   }
 
   .slide4_bottom h5 {
