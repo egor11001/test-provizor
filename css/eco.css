@@ -2426,7 +2426,7 @@ input:-webkit-autofill {
   background-color: #202022;
   height: 410px;
 
-  z-index: 71;
+  z-index: 20;
   padding: 30px;
   position: relative;
   backdrop-filter: saturate(180%) blur(5px);
@@ -4862,7 +4862,7 @@ a.f_li:hover {
     width: 100%;
   }
   .slide4 {
-    height: 105vh;
+    height: 110%;
   }
   .slide4_text_wrapper {
     top: 80px;
