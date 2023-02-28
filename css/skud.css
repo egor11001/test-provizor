@@ -470,7 +470,7 @@ nav .submenu.open {
   font-size: 24px;
   line-height: 28px;
   color: black;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .menu_log {
@@ -478,8 +478,7 @@ nav .submenu.open {
 }
 .menu_apps {
   color: #2997ff;
-  display: flex;
-  margin-left: 20px;
+  display: inline-flex;
   margin-top: -4px;
 }
 .menu_buy_mobile {
