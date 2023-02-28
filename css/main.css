@@ -1,0 +1,244 @@
+img {
+    pointer-events: none;
+  }
+
+
+.main_wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.main_left_side{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr 1.6fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.main_left_side:hover{
+	background-color: #304fff;
+	width: 60%;
+	transition: .3s ease;
+}
+.main_left_side:hover .main_p_text1 {
+	color: white;
+	transition: .3s ease;
+}
+
+.main_left_side:hover .logo_main svg path{
+    fill: white;
+    transition: .3s ease;
+}
+
+.logo_main svg path{
+  fill: black;
+}
+
+.logo_main{
+
+    height: 30px;
+    width: 145px;
+    z-index: 10;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.main_right_side{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    background-color: #efefef;
+    cursor: pointer;
+    transition: .3s ease;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr 1.6fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.main_right_side:hover{
+	background-color: #304fff;
+	width: 60%;
+	transition: .3s ease;	
+}
+
+.main_right_side:hover .main_p_text2{
+	color: white;
+	transition: .3s ease;	
+}
+.main_product_area{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_product_h{
+    font-size: 30px;
+    line-height: 38px;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 3vh;
+    color: black;
+}
+.main_product_img{
+
+}
+.main_product_1{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_product_2{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .img_p1{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .img_p2{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media only screen  and (max-width: 1030px) {
+.logo_main{
+height:     23px;
+width:  110px;
+z-index:    10;
+}
+.main_wrapper{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: block;   
+}
+.main_right_side{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.3fr 1.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.main_left_side{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.3fr 1.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.main_product_area{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main_product_h{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logo_main{
+    position: relative;
+    left: 20px;
+    top: 20px;  
+}
+.main_product_1 {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .img_p1{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_product_2 {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .img_p2{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 48%;
+    transform: translateX(-50%);
+}
+.main_left_side:hover{
+   height: 60vh;
+   width: 100%; 
+}
+.main_right_side:hover{
+   height: 60vh;
+   width: 100%; 
+}
+.main_right_side:hover ~ .main_left_side{
+   height: 40vh;
+   width: 100%; 
+}
+}
+@media only screen  and (max-height: 960px) {
+
+}
+@media only screen  and (max-height: 800px) {
+    .main_product_h{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+}
+@media only screen  and (max-height: 850px) {
+    .main_left_side{
+    grid-template-rows: 0.4fr 0.3fr 1.5fr;
+    }
+
+}
+@media only screen  and (max-width: 600px) {
+
+ .img_p2{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 47%;
+    transform: translateX(-50%);
+}
+}

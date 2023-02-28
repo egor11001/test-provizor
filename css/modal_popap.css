@@ -1,0 +1,234 @@
+/*----------------------- politics --------------------------*/
+.modal_politics::-webkit-scrollbar {
+    width: 1em;
+    z-index: -1;
+}
+ 
+.modal_politics::-webkit-scrollbar-track {
+    background-color: #000000;
+    z-index: -1;
+
+}
+ 
+.modal_politics::-webkit-scrollbar-thumb {
+    background-color: #212223;
+    border-radius: 1px;
+    background-image: url(../img/scroll_touch_lg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 90;
+  
+}
+.cross_politics{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-20px, 20px);
+    background-size: cover;
+    z-index: 100;
+    background-image: url(../img/cross.svg);
+}
+.modal_politics-fade{
+ padding: 100px 200px 100px;
+}
+.modal_politics{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 160;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #0000006e;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms ease;
+}
+.modal_politics_open{
+    visibility: visible;
+    opacity: 1;
+}
+.modal_politics_body{
+    padding: 80px;
+    background: #0a0a0ad9;
+    position: relative;
+    transform: translate(0, 120%);
+    transition: 800ms ease;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.modal_politics_body_open{
+    transform: translate(0, 0);
+}
+.politics_h2{
+    color: #ffffff;
+   
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.politics_text{
+    color: #ffffff;  
+}
+.politics_text_large{
+    color: #ffffff;
+   
+    font-size: 19px;
+    padding: 20px 0px;
+}
+.politics_text_small{
+    color: #979797;
+   
+    line-height: 20px;
+}
+
+
+
+
+/*----------------------- user_deal --------------------------*/
+.modal_user_deal::-webkit-scrollbar {
+    width: 1em;
+    z-index: -1;
+}
+ 
+.modal_user_deal::-webkit-scrollbar-track {
+    background-color: #000000;
+    z-index: -1;
+
+}
+ 
+.user_deal::-webkit-scrollbar-thumb {
+    background-color: #212223;
+    border-radius: 1px;
+    background-image: url(../img/scroll_touch_lg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 90;
+  
+}
+.cross_user_deal{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-20px, 20px);
+    background-size: cover;
+    z-index: 100;
+    background-image: url(../img/cross.svg);
+}
+.user_deal-fade{
+ padding: 100px 200px 100px;
+}
+.modal_user_deal{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 160;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #0000006e;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms ease;
+}
+.modal_user_deal_open{
+    visibility: visible;
+    opacity: 1;
+}
+.user_deal_body{
+    padding: 80px;
+    background: #0a0a0ad9;
+    position: relative;
+    transform: translate(0, 40%);
+    transition: 800ms ease;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.user_deal_body_open{
+    transform: translate(0, 0);
+}
+.user_deal_h2{
+    color: #ffffff;
+ 
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.user_deal_text{
+    color: #ffffff;  
+}
+.user_deal_large{
+    color: #ffffff;
+   
+    font-size: 19px;
+    padding: 20px 0px;
+}
+.user_deal_small{
+    color: #b9b9b9;
+   
+    line-height: 20px;
+}
+._body_404{
+    color: white;
+    background: #07131f;
+    padding: 40px;
+    height: 100vh;
+
+}
+._body_h1{
+font-size: 10vh;
+  
+}
+._body_h2{
+    font-size: 2vh;
+  
+    padding-bottom: 1vh;
+}
+
+
+
+
+@media only screen  and (max-width: 1250px) {
+
+
+    .modal_politics-fade {
+    padding: 80px 30px 100px;
+    }
+    .user_deal-fade{
+      padding: 80px 30px 100px;  
+    }
+
+}
+
+
+/************IPHONE 13/13pro*************/
+
+
+@media only screen  and (max-width: 500px) and (max-height: 844px) {
+
+.modal_politics-fade {
+    padding: 0px 0px 100px;
+}
+.modal_politics_body{
+    padding: 20px;
+}
+.politics_h2{
+    font-size: 22px;
+}
+.user_deal-fade{
+   padding: 0px 0px 100px;  
+}
+.user_deal_h2{
+    font-size: 22px;
+
+}
+.user_deal_body{
+    padding: 20px;
+}
+}
